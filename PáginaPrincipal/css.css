@@ -1,0 +1,29 @@
+body {
+    background-image: url('fundopaginaprincipal.jpg');
+    background-size: cover; /* Para cobrir todo o fundo */
+    background-repeat: no-repeat; /* Evita repetição da imagem */
+}
+h1, h2 {
+    text-align: center;
+    color: aliceblue;
+    font-size: 50pt;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 30px;
+}
+h2 {
+    font-size: 25pt;
+    margin-bottom: 20px;
+}
+p {
+    text-align: center;
+    color: aliceblue;
+    font-size: 10pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+li {
+    padding: 2px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 12pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
