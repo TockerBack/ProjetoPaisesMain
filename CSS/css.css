@@ -4,7 +4,7 @@ body {
     background-size: cover; /* Para cobrir todo o fundo */
     background-repeat: no-repeat; /* Evita repetição da imagem */
 }
-h1, h2 {
+h1, h2, h3 {
     text-align: center;
     color: aliceblue;
     font-size: 50pt;
@@ -34,4 +34,8 @@ li {
     border-width: 5pt;
     border-style: outset;
     background-color:rgb(65, 187, 48)
+}
+.rodape{
+    position: absolute;
+    bottom: 0;
 }
