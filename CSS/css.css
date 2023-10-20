@@ -1,4 +1,5 @@
 body {
+    align-content: center;
     margin: 50px;
     background-image: url('../Imagens/fundopaginaprincipal.jpg');
     background-size: cover; /* Para cobrir todo o fundo */
@@ -29,7 +30,7 @@ li {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .content {
-    height: 500px;
+    height: 700px;
     align-content: center;
     border-width: 5pt;
     border-style: outset;
@@ -39,3 +40,7 @@ li {
     position: absolute;
     bottom: 0;
 }
+.div-filha {
+    display: grid;
+    place-items: center;
+    height: 50vh;
