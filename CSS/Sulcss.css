@@ -38,16 +38,8 @@ li {
     margin-left: 450px;
 }
 .content {
-    width: 1200px;
-    height: 600px;
-    align-content: left;
-    border-width: 5pt;
-    border-style: outset;
-    background-color:rgb(65, 187, 48)
-}
-.content2 {
-    width: 1200px;
-    height: 320px;
+    width: auto;
+    height: auto;
     align-content: left;
     border-width: 5pt;
     border-style: outset;
