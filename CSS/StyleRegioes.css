@@ -49,3 +49,10 @@ button {
     border-style: outset;
     background-color:rgb(65, 187, 48)
 }
+.rodape{
+    color: aliceblue;
+    position: absolute;
+    text-align: left;
+    bottom: 0;
+    font-family: 'Courier New', Courier, monospace;
+}

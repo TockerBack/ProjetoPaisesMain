@@ -6,9 +6,18 @@
     border-style: outset;
     background-color:rgb(65, 187, 48)
 }
+.footer{
+    bottom: 0;
+    right: 0;
+    color:aliceblue;
+    padding: 3px;
+    text-align: right;
+}
 .rodape{
-    position: absolute;
+    color: aliceblue;
     text-align: left;
+    bottom: 0;
+    font-family: 'Courier New', Courier, monospace;
 }
 .div-filha {
 display: grid;
