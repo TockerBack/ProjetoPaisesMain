@@ -15,7 +15,7 @@ h1, h2 {
     margin-left: 12pt;
 }
 h2 {
-    font-size: 25pt;
+    font-size: 30pt;
     margin-bottom: 20px;
 }
 p {
@@ -33,6 +33,10 @@ li {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-left: 12pt;
 }
+button {
+    background-color: #ccff00;
+    padding: 5px 10px;
+  }
 .img1 {
     width: 200px;
     margin-left: 450px;
