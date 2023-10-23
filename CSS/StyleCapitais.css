@@ -8,7 +8,7 @@ body {
 div {
     margin-bottom: 15px;
 }
-h1, h2, h3 {
+h1, h2 {
     text-align: left;
     color: aliceblue;
     font-size: 50pt;
@@ -29,6 +29,10 @@ p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-left: 25px;
 }
+button {
+    background-color: #ccff00;
+    padding: 5px 10px;
+  }
 .content {
     height: auto;
     width: auto;
@@ -48,6 +52,10 @@ p {
     padding: 30px;
     height: 300px;
     width: 400px;
+}
+#titulo_atracao {
+    font-size: 30pt;
+    text-align: center;
 }
 #div_aux{
     color: aliceblue;
