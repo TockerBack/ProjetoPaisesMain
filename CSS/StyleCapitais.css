@@ -1,0 +1,62 @@
+body {
+    align-content: center;
+    margin: 50px;
+    background-image: url('../Imagens/fundopaginaprincipal.jpg');
+    background-size: cover; /* Para cobrir todo o fundo */
+    background-repeat: no-repeat; /* Evita repetição da imagem */
+}
+div {
+    margin-bottom: 15px;
+}
+h1, h2, h3 {
+    text-align: left;
+    color: aliceblue;
+    font-size: 50pt;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 20px;
+    margin-left: 25px;
+}
+h2 {
+    font-size: 25pt;
+    margin-bottom: 20px;
+    margin-left: 25px;
+}
+p {
+    padding: 7pt;
+    text-align: left;
+    color: aliceblue;
+    font-size: 10pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 25px;
+}
+.content {
+    height: auto;
+    width: auto;
+    align-content: left;
+    border-width: 5pt;
+    border-style: outset;
+    background-color:rgb(65, 187, 48)
+}
+#img_principal {
+    margin-left: 50px;
+    padding: 10px;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10pt;
+}
+#img_atracao {
+    padding: 30px;
+    height: 300px;
+    width: 400px;
+}
+#div_aux{
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10pt;
+    width: 38%;
+    float: right;
+}
+#div_atracao {
+    float: left;
+    width: 55%;
+}
