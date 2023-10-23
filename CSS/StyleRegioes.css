@@ -6,6 +6,9 @@ body {
     background-size: cover; /* Para cobrir todo o fundo */
     background-repeat: no-repeat; /* Evita repetição da imagem */
 }
+div {
+    margin-bottom: 15px;
+}
 h1, h2 {
     text-align: left;
     color: rgb(255, 255, 255);
