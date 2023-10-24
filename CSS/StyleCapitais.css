@@ -44,6 +44,7 @@ button {
 #img_principal {
     margin-left: 50px;
     padding: 10px;
+    align-self: center;
     color: aliceblue;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 10pt;
@@ -62,9 +63,9 @@ button {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 10pt;
     width: 38%;
-    float: right;
+    display: inline-block;
 }
 #div_atracao {
-    float: left;
+    display: inline-block;
     width: 55%;
 }
