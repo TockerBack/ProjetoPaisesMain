@@ -1,6 +1,6 @@
 body {
     margin: 50px;
-    background-image: url('../Imagens/fundopaginaprincipal.jpg');
+    background-image: url('../Imagens/PgPrincipal/fundopaginaprincipal.jpg');
     background-size: cover; /* Para cobrir todo o fundo */
     background-repeat: no-repeat; /* Evita repetição da imagem */
 }
