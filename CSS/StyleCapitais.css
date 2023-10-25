@@ -40,6 +40,12 @@ button {
     border-style: outset;
     background-color:rgb(65, 187, 48)
 }
+.flex-container {
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
 .rodape{
     color: aliceblue;
     text-align: center;
@@ -68,10 +74,10 @@ button {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 10pt;
     width: 33%;
-    display: inline-block;
+    align-self:flex-end;
 }
 #div_atracao {
     margin: 10px;
-    display: inline-block;
     width: 55%;
+    align-self: flex-start;
 }
