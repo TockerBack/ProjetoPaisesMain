@@ -4,7 +4,9 @@
     align-content: center;
     border-width: 5pt;
     border-style: outset;
-    background-color:rgb(65, 187, 48)
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(38, 116, 28, 0.768);
+    background-color:rgb(65, 187, 48);
 }
 .footer{
     bottom: 0;
@@ -20,9 +22,9 @@
     font-family: 'Courier New', Courier, monospace;
 }
 .div-filha {
-display: grid;
-place-items: center;
-height: 50vh;
+    display: grid;
+    place-items: center;
+    height: 50vh;
 }
 body {
     align-content: center;

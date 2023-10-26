@@ -50,6 +50,8 @@ button {
     align-content: left;
     border-width: 5pt;
     border-style: outset;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(38, 116, 28, 0.768);
     background-color:rgb(65, 187, 48)
 }
 .rodape{
