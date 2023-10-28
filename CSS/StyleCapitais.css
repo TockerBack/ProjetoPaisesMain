@@ -22,6 +22,7 @@ h2 {
 }
 p {
     padding: 7pt;
+    line-height: 20px;
     text-align: left;
     color: aliceblue;
     font-size: 10pt;
