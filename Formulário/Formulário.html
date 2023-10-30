@@ -10,25 +10,25 @@
 <body>
     <h1>Formulário de Contato</h1>
     <hr>
-    <form id="formulário" action="">
+    <form id="formulário" onsubmit="validaFormulario()">
         <p>
             <label for="nome">Nome: </label>
-            <input type="text" name="nome" placeholder="Escreva seu nome:">
+            <input type="text" name="nome" id="nome" placeholder="Escreva seu nome:">
         </p>
         <p>
             <label for="numerotelefone">Telefone: </label>
-            <input type="text" name="Telefone" placeholder="Informe seu telefone:">
+            <input type="text" name="Telefone" id="telefone" placeholder="Informe seu telefone:">
         </p>
         <p>
             <label for="e-mail">E-mail: </label>
-            <input type="text" name="e-mail" placeholder="Digite seu e-mail:">
+            <input type="text" name="e-mail" id="email" placeholder="Digite seu e-mail:">
         </p>
         <p>
             <label for="texto">Escreva seu e-mail: </label><br>
             <textarea name="texto" id="texto" cols="50" rows="10"></textarea>
         </p>
         <p>
-            <input type="submit" value="Enviar" onclick="enviarClick()">
+            <input type="submit" value="Enviar">
         </p>
     </form>
     <div class="rodape">
