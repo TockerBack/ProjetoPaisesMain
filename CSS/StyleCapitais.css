@@ -29,6 +29,9 @@ p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-left: 25px;
 }
+#btnvoltar{
+    text-decoration: none;
+}
 button {
     background-color: #ccff00;
     padding: 5px 10px;

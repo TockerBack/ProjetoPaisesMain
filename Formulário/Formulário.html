@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,30 +8,38 @@
     <script src="../Scripts/form.js"></script>
     <title>Entre em contato</title>
 </head>
+
 <body>
-    <h1>Formulário de Contato</h1>
-    <hr>
-    <form id="formulário" onsubmit="validaFormulario()">
-        <p>
-            <label for="nome">Nome: </label>
-            <input type="text" name="nome" id="nome" placeholder="Escreva seu nome:">
-        </p>
-        <p>
-            <label for="numerotelefone">Telefone: </label>
-            <input type="text" name="Telefone" id="telefone" placeholder="Informe seu telefone:">
-        </p>
-        <p>
-            <label for="e-mail">E-mail: </label>
-            <input type="text" name="e-mail" id="email" placeholder="Digite seu e-mail:">
-        </p>
-        <p>
-            <label for="texto">Escreva seu e-mail: </label><br>
-            <textarea name="texto" id="texto" cols="50" rows="10"></textarea>
-        </p>
-        <p>
-            <input type="submit" value="Enviar">
-        </p>
-    </form>
+    <div>
+        <div id="title">
+            <h1>Formulário de Contato</h1>
+        </div>
+        <hr>
+        <form id="formulário" onsubmit="validaFormulario()">
+            <p>
+                <label for="nome">Nome: </label>
+                <input type="text" name="nome" id="nome" placeholder="Escreva seu nome:">
+            </p>
+            <p>
+                <label for="numerotelefone">Telefone: </label>
+                <input type="text" name="Telefone" id="telefone" placeholder="Informe seu telefone:">
+            </p>
+            <p>
+                <label for="e-mail">E-mail: </label>
+                <input type="text" name="e-mail" id="email" placeholder="Digite seu e-mail:">
+            </p>
+            <p>
+                <label for="texto">Escreva seu e-mail: </label><br>
+                <textarea name="texto" id="texto" cols="50" rows="10"></textarea>
+            </p>
+            <p>
+                <input type="submit" value="Enviar">
+            </p>
+        </form>
+    </div>
+    <button style="margin-left: 12pt;">
+        <a href="../PáginaPrincipal/index.html">Voltar</a>
+    </button>
     <div class="rodape">
         <hr>
         <p>
