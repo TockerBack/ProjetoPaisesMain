@@ -37,9 +37,15 @@ li {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-left: 12pt;
 }
+#btnvoltar{
+    text-decoration: none;
+    color: rgb(65, 187, 48);
+}
 button {
     background-color: #ccff00;
     padding: 5px 10px;
+    border-radius: 6px;
+    box-shadow: 5px 5px 5px rgb(65, 187, 48);
   }
 .img1 {
     width: 200px;

@@ -7,13 +7,23 @@ body {
 }
 div {
     margin-bottom: 15px;
+}#title{
+    margin: 0;
+    display: flexbox;
+    text-align: center;
 }
 h1 {
-    text-align: center;
+    background-color: rgba(64, 187, 48, 0.223);
     color: aliceblue;
-    font-size: 50pt;
+    font-size: 48pt;
     font-family: 'Courier New', Courier, monospace;
     margin-bottom: 30px;
+    border-radius: 10px;
+    padding: 0;
+    display:inline-flex;
+    margin-top: 10px;
+    justify-self: center;
+    text-align: center;
 }
 
 #formulário {
@@ -27,7 +37,9 @@ p {
     line-height: 20px;
     
 }
-
+a {
+    text-decoration: none;
+}
 label {
     color:aliceblue;
     font-weight: bold;
@@ -44,10 +56,13 @@ textarea {
 textarea {
     resize: vertical;
 }
-
+button {
+    background-color: #ccff00;
+    padding: 5px 10px;
+    border-radius: 6px;
+  }
 .rodape{
     color: aliceblue;
-    position: absolute;
     text-align: left;
     bottom: 0;
     font-family: 'Courier New', Courier, monospace;
