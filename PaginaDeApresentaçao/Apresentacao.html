@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página de Apresentação</title>
     <link rel="stylesheet" href="../CSS/StylePgPrincipal.css">
+    <script src="../Scripts/Apresentacao.js"></script>
     <style>
         .imagem-centralizada {
             display: block;
@@ -14,12 +15,31 @@
             background-color: aliceblue;
             border: 2px solid aliceblue;
         }
-        p{
-            text-align: justify;
-            margin-left: 10px;
-        }
         .content{
             padding: 10px;
+        }
+        .content #citacao{
+            border-style: inherit;
+            border-width: 3px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            margin: auto;
+            width: 50%;
+            padding: 10px;
+            background-color: rgb(62, 174, 47);
+        }
+        button{
+            background-color: #ccff00;
+            padding: 5px 10px;
+            border-radius: 6px;
+            box-shadow: 5px 5px 5px rgb(65, 187, 48);
+            text-decoration: none;
+            margin-left: 50%;
+        }
+        p{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            text-align: justify;
+            margin-left: 10px;
         }
         q{
             font-style: italic ;
@@ -46,27 +66,30 @@
         </h1>
         <hr>
         <p>
-            Luan gabriel e Kennedy Lima, estudantes da Faculdade Estácio, cursando o segundo semestre de 
+            Luan Gabriel e Kennedy Lima, estudantes da Faculdade Estácio, cursando o segundo semestre de 
             Análise e Desenvolvimento de Sistemas.
             <br>
             Fizemos este projeto em HTML, CSS, JavaScript com o intuito de desenvolver nosso aprendizado nestas tecnologias, 
             nos aperfeiçoando para o desenvolvimento WEB. Este é nosso primeiro projeto, espero que goste. 😄
         </p>
+        <div class="content" id="citacao">
+            <p>
+                <q>
+                    O desenvolvimento web é como construir um mundo digital do zero, e cada linha de código que você escreve é um tijolo na construção do seu sucesso. Continue aprendendo, experimentando e evoluindo, pois o horizonte da web está repleto de oportunidades para aqueles que perseveram.
+                </q>
+                <p style="font-size: 0.8em;">By ChatGPT</p>
+            </p>
+        </div>
+        <p>Neste site você encontrará uma espécie de guia turístico para as capitais do Brasil (Todas elas).</p>
         <p>
-            <q>
-                O desenvolvimento web é como construir um mundo digital do zero, e cada linha de código que você escreve é um tijolo na construção do seu sucesso. Continue aprendendo, experimentando e evoluindo, pois o horizonte da web está repleto de oportunidades para aqueles que perseveram.
-            </q>
-            By ChatGPT
-        </p>
-        <p>
-            Neste site você encontrará uma espécie de guia turístico para as capitais do Brasil (Todas elas).
-            <br>
             Um dos primeiros desafios que encontramos foi a questão dos estilos, pois, quando começamos não tinhamos o conhecimento
             necessário, confessamos que o ChatGPT nos ajudou bastante, mas óbviamente fizemos quase tudo por conta própria.
             <br>
-            O processo criativo foi bem fluido, pensavamos e já aplicavamos, nesta página mesmo você encontrará 
+            O processo criativo foi bem fluido, pensavamos e já aplicavamos, nesta página mesmo você encontrará
             uma coisa interessante!
         </p>
+        <button id="playbtn" onclick="playaudio()">?</button>
+        <audio id="audio" src="meme.mp4"></audio>
     </div>
 </body>
 
